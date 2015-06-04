@@ -702,3 +702,6 @@
 [02-Jun-2015 03:42:41 UTC] PHP Stack trace:
 [02-Jun-2015 03:42:41 UTC] PHP   1. {main}() C:\wamp\www\milan\Purple\index.php:0
 [02-Jun-2015 03:42:41 UTC] PHP   2. require_once() C:\wamp\www\milan\Purple\index.php:35
+[05-Jun-2015 00:36:46 Europe/Berlin] PHP Warning:  mysqli_connect():  in C:\Bitnami\xampp\htdocs\Purple\modelo\mod_connex2.php on line 20
+[05-Jun-2015 00:36:46 Europe/Berlin] PHP Notice:  Undefined variable: mysqlconn in C:\Bitnami\xampp\htdocs\Purple\modelo\mod_connex2.php on line 20
+[05-Jun-2015 00:36:46 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\Bitnami\xampp\htdocs\Purple\modelo\mod_connex2.php on line 20

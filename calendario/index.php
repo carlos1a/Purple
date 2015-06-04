@@ -11,8 +11,8 @@ error_reporting(E_ALL);
 		<title>Calendario en PHP con eventos</title>
 		<meta http-equiv="PRAGMA" content="NO-CACHE" />
 		<meta http-equiv="EXPIRES" content="-1" />
-		<script type="text/javascript" src="../calendario/jquery.js"></script>
-		<script type="text/javascript" src="../calendario/vtip.js"></script>
+		<script type="text/javascript" src="calendario/jquery.js"></script>
+		<script type="text/javascript" src="calendario/vtip.js"></script>
 		<script type="text/javascript">
 		$(document).ready(function(){
 			setTimeout(function() {$('#mensaje').fadeOut('fast');}, 3000);
@@ -20,8 +20,7 @@ error_reporting(E_ALL);
 		</script>
 		<style>
 		* {margin: 0;padding: 0;font-family:Helvetica, Arial, Tahoma, sans-serif;}
-		html,body{height:100%;width:100%;outline:0;overflow:hidden}
-		body {text-align:left;margin:0;width:100%;height:100%;overflow:hidden;padding:0px 0}
+
 		p#vtip { display: none; position: absolute; padding: 5px; left: 5px; font-size: 0.75em; background-color: #666666; border: 1px solid #666666; -moz-border-radius: 5px; -webkit-border-radius: 5px; z-index: 9999;color:white }
 		p#vtip #vtipArrow { position: absolute; top: -10px; left: 5px }
 		.ok{border:1px dotted green;color:green;padding:10px}
