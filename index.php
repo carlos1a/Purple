@@ -33,7 +33,7 @@
 	    </div>
 	</div>
 	<div id="welcome" class="wrap">Iamder, Instituto Autónomo de Deporte
-		<?php require("calendario/index.php"); ?>
+
 	</div>
 	<a name="about-link" class="anchor">&nbsp;</a>
 	<div id="about-title">
