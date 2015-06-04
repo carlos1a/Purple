@@ -63,7 +63,7 @@ error_reporting(E_ALL);
 				$q1="insert into tcalendario (fecha,evento) values ('".$_POST["fecha"]."','".strip_tags($_POST["titulo"])."')";
 
 				if ($r1=mysqli_query($mysqlconn,$q1)) { $mostrar="<p class='ok' id='mensaje'>Evento guardado correctamente.</p>";
-				echo('<script>location.href = "inicio2.php";</script>');}
+				echo('<script>location.href = "index.php";</script>');}
 				else $mostrar= "<p class='error' id='mensaje'>Se ha producido un error guardando el evento.</p>";
 			}
 			if (isset($_GET["borrarevento"]))
